@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{fdf8c80b-28fe-4e6a-898d-0efd3d9d2500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console Display">
+      <UniqueIdentifier>{f77a7b74-8208-44ea-8968-964fee2279bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory">
+      <UniqueIdentifier>{99511ea6-2797-4fad-a997-26b2eaa695ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventory">
+      <UniqueIdentifier>{10c4058b-7ec3-4a3f-9788-ceaa51a26593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{32bd92b4-9a31-4ab9-a933-d79c59650f27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaristaInventory.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="BaristaMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BaristaDrink.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaristamaticProg.cpp">
+      <Filter>Source Files\Console Display</Filter>
+    </ClCompile>
+    <ClCompile Include="BaristaMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BaristaInventory.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
