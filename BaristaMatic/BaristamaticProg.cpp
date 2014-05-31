@@ -41,7 +41,7 @@ int main()
 		if(strlen(command) > 1){			
 			bool isBlankLine = true;
 			for(int i=0; i<strlen(command); i++){
-				if(command[i] != ' ' || command[i] != '\t'){
+				if(command[i] != ' ' && command[i] != '\t'){
 					isBlankLine = false;
 					break;
 				}
