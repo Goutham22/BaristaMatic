@@ -16,6 +16,7 @@ int main()
 		/* Exception Handling can be added here - 
 		To make program simple it is not included assuming this case will not arise  */
 		cout << "ERROR: theInventory is NULL " << endl;
+		return 0;
 	}
 	theInventory->initializeIngredients();
 	BaristaMenu theMenu(theInventory);
